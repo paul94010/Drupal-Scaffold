@@ -31,6 +31,9 @@
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": ">=4.8.28 <5"
     },
+    "conflict": {
+        "drush/drush": "<8.1.10"
+    },
     "extra": {
         "installer-paths": {
             "web/core": ["type:drupal-core"],
